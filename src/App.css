@@ -19,28 +19,24 @@
   padding: 20px;
 
 }
-
     
 img {
   width: 100%;
 }
 
-#root {
+.card-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 240px;
-  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  width: 240px;
+  margin: 25px;
   padding: 0px;
   text-align: center;
-  height: auto;
-  display: inline-flex;
-  flex-direction: row;
-
+  cursor: pointer;
+  transition: all .15s ease-in-out;
 }
-
