@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "/images/kitten1.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "image": "/images/kitten2.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "image": "/images/kitten3.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "image": "/images/kitten4.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "image": "/images/kitten5.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "image": "/images/kitten6.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "image": "/images/kitten7.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "image": "/images/kitten8.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "image": "/images/kitten9.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 10,
+        "image": "/images/kitten10.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 11,
+        "image": "/images/kitten11.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 12,
+        "image": "/images/kitten12.jpg",
+        "isClicked": false
+    }
+]

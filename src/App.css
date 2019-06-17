@@ -1,0 +1,46 @@
+
+.footer, .navbar {
+  background-color: #593d02;
+  color: beige;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  
+}
+
+.navbar {
+  position:sticky;
+}
+
+.header {
+  background-color: blanchedalmond;
+  text-align: center;
+  color: #593d02;
+  padding: 20px;
+
+}
+
+    
+img {
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 240px;
+  margin: 20px;
+  padding: 0px;
+  text-align: center;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
