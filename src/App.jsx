@@ -11,7 +11,8 @@ class App extends Component {
     imgData,
     currentScore: 0,
     bestScore: 0,
-    clicked: []
+    clicked: [],
+    userText: "Pet a cat to begin",
   };
 
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
       <div>
         <Header />
         <Navbar
+          userText={this.state.userText}
           score={this.state.currentScore}
           bestScore={this.state.bestScore}
         />
@@ -31,7 +33,6 @@ class App extends Component {
             <ImgCard img={img} key={img.id} click={this.handleImageClick} />
           ))}
         </div>
-        />
         <Footer />
       </div>
     );
@@ -50,28 +51,29 @@ class App extends Component {
     if (isClicked) {
       console.log("clicked same one twice, game over");
       // reset the game
-      // TODO tell the user what happened
       this.setState({
         clicked: [],
-        currentScore: 0
+        currentScore: 0,
+        userText: "HISS! Game Over"
       });
     } else {
       console.log("clicked a new image, keep going");
       const newScore = this.state.currentScore + 1;
       if (newScore === this.state.imgData.length) {
         // user won the game
-        // TODO tell the user what happened
         this.setState({
           clicked: this.state.clicked.concat(img.id),
           currentScore: newScore,
-          bestScore: Math.max(this.state.bestScore, newScore)
+          bestScore: Math.max(this.state.bestScore, newScore),
+          userText: "You Won! You're the cat's meow!"
         });
       } else {
         // user is still playing
         this.setState({
           clicked: this.state.clicked.concat(img.id),
           currentScore: newScore,
-          bestScore: Math.max(this.state.bestScore, newScore)
+          bestScore: Math.max(this.state.bestScore, newScore),
+          userText: "Purr!"
         });
       }
     }
