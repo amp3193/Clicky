@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "image": "/images/kitten1.jpg"
+        "image": "./images/kitten1.jpg"
     },
     {
         "id": 2,
-        "image": "/images/kitten2.jpg"
+        "image": "./images/kitten2.jpg"
     },
     {
         "id": 3,
-        "image": "/images/kitten3.jpg"
+        "image": "./images/kitten3.jpg"
     },
     {
         "id": 4,
-        "image": "/images/kitten4.jpg"
+        "image": "./images/kitten4.jpg"
     },
     {
         "id": 5,
-        "image": "/images/kitten5.jpg"
+        "image": "./images/kitten5.jpg"
     },
     {
         "id": 6,
-        "image": "/images/kitten6.jpg"
+        "image": "./images/kitten6.jpg"
     },
     {
         "id": 7,
-        "image": "/images/kitten7.jpg"
+        "image": "./images/kitten7.jpg"
     },
     {
         "id": 8,
-        "image": "/images/kitten8.jpg"
+        "image": "./images/kitten8.jpg"
     },
     {
         "id": 9,
-        "image": "/images/kitten9.jpg"
+        "image": "./images/kitten9.jpg"
     },
     {
         "id": 10,
-        "image": "/images/kitten10.jpg"
+        "image": "./images/kitten10.jpg"
     },
     {
         "id": 11,
-        "image": "/images/kitten11.jpg"
+        "image": "./images/kitten11.jpg"
     },
     {
         "id": 12,
-        "image": "/images/kitten12.jpg"
+        "image": "./images/kitten12.jpg"
     }
 ]
